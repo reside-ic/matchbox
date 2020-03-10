@@ -1,0 +1,18 @@
+Package: matchbox
+Title: Match and Clean Data
+Version: 0.0.1
+Authors@R: c(person("Rich", "FitzJohn", role = c("aut", "cre"),
+                    email = "rich.fitzjohn@gmail.com"),
+             person("Imperial College of Science, Technology and Medicine",
+                    role = "cph"))
+Description: Utilities for matching data against a know list of good
+    values ("a data dictionary"), and tools to create such
+    dictionaries.  The hope is that this approach reduces the amount
+    of data cleaning code written, with most cleaning being done by
+    editing files of metadata.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Language: en-GB
+Suggests:
+    testthat
